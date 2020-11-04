@@ -1,0 +1,17 @@
+.nav-link {
+   
+	font-family: Courier New;
+    font-size: 20px;
+    padding-left:  100px;
+    color: rgb(255, 254, 254);
+    display:block;
+    float: left;
+    background: black;
+    width: 100%;
+ z-index: 100%;
+ position: initial;
+   
+
+   
+   
+}
