@@ -1,17 +1,18 @@
 .nav-link {
-   
-	font-family: Courier New;
-    font-size: 20px;
-    padding-left:  100px;
-    color: rgb(255, 254, 254);
-    display:block;
-    float: left;
-    background: black;
-    width: 100%;
- z-index: 100%;
- position: initial;
-   
+  font-family: Courier New;
+  font-size: 2.8rem;
+  padding-left: 100px;
+  color: rgb(255, 254, 254);
+  display: block;
+  width: 100%;
+  z-index: 100%;
+  position: initial;
+  padding: 0;
+}
 
-   
-   
+.nav {
+    display: flex;
+    background: black;
+    opacity: .5;
+    text-align: center;
 }
