@@ -126,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Valentina"
+    }
+  },
+  "defaultProject": "Valentina",
+  "cli": {
+    "analytics": "74eb3a2a-d541-411e-8e7b-51bd3a2fbb06"
+  }
 }
