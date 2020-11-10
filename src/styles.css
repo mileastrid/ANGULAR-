@@ -71,7 +71,7 @@ body {
 }
 
 .contenedor .form {
-	background: rgba(0, 0, 0, .6);
+	background: rgba(168, 147, 147, 0.6);
 	width: 90%;
 	max-width: 650px;
 	margin: auto;
@@ -94,7 +94,7 @@ body {
 }
 
 .contenedor .form .form-input .form-textarea {
-	background: rgba(0, 0, 0, .7);
+	background: rgba(212, 254, 255, 0.7);
 	border: none;
 	outline: none;
 	border-bottom: 2px solid #33FF7D;
@@ -138,3 +138,58 @@ body {
 	height: calc(100vh- 100px- 300px);
 }
 
+.main-container{
+	margin-top: 40px;
+	margin-bottom: 150px;
+  }
+  
+  .puntero{
+	cursor: pointer;
+  }
+  
+  
+  .chat-window{
+	padding: 10px;
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
+	border: 1px solid #0acfb5;
+	border-radius: 20px;
+  }
+  
+  .app-mensajes{
+	overflow-y:scroll;
+	height:270px;
+	background:gray;
+	padding: 5px;
+  }
+  
+  
+  /* Animaciones */
+  .animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+  }
+  
+  .fast {
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  .fadeIn {
+	animation-name: fadeIn;
+  }

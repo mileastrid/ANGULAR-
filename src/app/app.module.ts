@@ -12,8 +12,10 @@ import { QuienesComponent } from './quienes/quienes.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { IndexComponent } from './index/index.component';
+import { ChatComponent } from './chat/chat.component';
 
 
+ 
 const routes: Routes = [
   { path: 'index', component: PrimercomponenteComponent },
   { path: 'menu', component:  MenuComponent  },
@@ -35,11 +37,14 @@ const routes: Routes = [
     ContactoComponent,
     NosotrosComponent,
     IndexComponent,
+    ChatComponent,
    
   ],
   imports: [
     BrowserModule, 
-    RouterModule.forRoot(routes) ],
+    RouterModule.forRoot(routes),
+    
+],
   providers: [],
   bootstrap: [AppComponent]
 })
