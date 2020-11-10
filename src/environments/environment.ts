@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  firebase: {
+firebase: {
     apiKey: "AIzaSyBfmld2-FZbJMgw7-NzVPkRdjo_94HXta8",
     authDomain: "firechat-927bb.firebaseapp.com",
     databaseURL: "https://firechat-927bb.firebaseio.com",
@@ -12,7 +12,6 @@ export const environment = {
     storageBucket: "firechat-927bb.appspot.com",
     messagingSenderId: "990134720661"
   }
-
 };
 
 /*

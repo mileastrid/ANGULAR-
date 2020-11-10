@@ -2,7 +2,7 @@
   font-family: Courier New;
   font-size: 2.8rem;
   padding-left: 100px;
-  color: rgb(255, 254, 254);
+  color: rgb(244, 245, 244);
   display: block;
   width: 100%;
   z-index: 100%;
@@ -12,7 +12,7 @@
 
 .nav {
     display: flex;
-    background: black;
+    background: rgb(3, 2, 2);
     opacity: .5;
     text-align: center;
 }
