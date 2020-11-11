@@ -1,0 +1,47 @@
+<div class="container main-container">
+  <app-login *ngIf="!_cs.usuario.uid"></app-login>
+
+  <div class="chat-window" *ngIf="_cs.usuario.uid">
+    <div class="container-title">
+      <h1 class="title-services">SERVICIO</h1>
+      <button
+        type="button"
+        class="btn btn-outline-danger button-salir"
+        (click)="_cs.logout()"
+      >
+        salir
+      </button>
+    </div>
+
+    <div class="app-mensajes" id="app-mensajes">
+      <div
+        *ngFor="let chat of _cs.chats"
+        [ngClass]="{
+          'text-right': _cs.usuario.uid == chat.uid,
+          'text-left': _cs.usuario.uid != chat.uid
+        }"
+      >
+        <span
+          class="badge"
+          [ngClass]="{
+            'badge-primary': _cs.usuario.uid == chat.uid,
+            'badge-succes': _cs.usuario.uid != chat.uid
+          }"
+        >
+          {{ chat.nombre }}</span
+        >
+        <p class="menssage">
+          {{ chat.mensaje }}
+        </p>
+      </div>
+    </div>
+    <input
+      type="text"
+      name="mensaje"
+      [(ngModel)]="mensaje"
+      class="from-control"
+      (keyup.enter)="enviar_mensaje()"
+      placeholder="Enviar mensaje"
+    >
+  </div>
+</div>

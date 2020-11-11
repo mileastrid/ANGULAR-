@@ -1,18 +1,44 @@
 .nav-link {
-  font-family: Courier New;
-  font-size: 2.8rem;
-  padding-left: 100px;
-  color: rgb(255, 254, 254);
-  display: block;
-  width: 100%;
-  z-index: 100%;
-  position: initial;
-  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size  : 2rem;
+  color      : rgb(255, 254, 254);
+  display    : block;
+  width      : max-content;
+  z-index    : 100%;
+  position   : initial;
+  padding    : 0;
+  margin     : 20px 20px;
+
+}
+
+.nav-container {
+  display        : flex;
+  flex-wrap      : wrap;
+  align-items    : center;
+  justify-content: center;
+}
+
+.nav-img {
+  width: 80px;
 }
 
 .nav {
-    display: flex;
-    background: black;
-    opacity: .5;
-    text-align: center;
+  display        : flex;
+  flex-wrap      : wrap;
+  align-items    : center;
+  justify-content: center;
+  text-align     : center;
+  min-height     : 110px;
+  width          : 100%;
+}
+
+.container {
+  max-width      : 1140px;
+  min-height     : 110px;
+  height         : 100%;
+  display        : flex;
+  flex-wrap      : wrap;
+  align-items    : center;
+  justify-content: space-evenly;
 }

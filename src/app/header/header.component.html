@@ -1,7 +1,18 @@
 <nav class="nav nav-pills nav-fill">
-  <a class="nav-item nav-link" [routerLink]="['/index']">index</a>
-  <a class="nav-item nav-link" [routerLink]="['/quienes']">¿Quiénes Somos?</a>
-  <a class="nav-item nav-link" [routerLink]="['/nosotros']">Nosotros</a>
-  <a class="nav-item nav-link" [routerLink]="['/menu']">Menú</a>
-  <a class="nav-item nav-link" [routerLink]="['/contacto']">Contáctanos</a>
+  <div class="container">
+    <img
+      src="https://res.cloudinary.com/design-code-mx/image/upload/v1605058270/hvPdbSucR04wAAAABJRU5ErkJggg_eivgin.png"
+      alt=""
+      class="nav-img"
+    />
+    <div class="nav-container">
+      <a class="nav-item nav-link" [routerLink]="['/index']">Home</a>
+      <a class="nav-item nav-link" [routerLink]="['/quienes']"
+        >¿Quiénes Somos?</a
+      >
+      <a class="nav-item nav-link" [routerLink]="['/nosotros']">Nosotros</a>
+      <a class="nav-item nav-link" [routerLink]="['/menu']">Menú</a>
+      <a class="nav-item nav-link" [routerLink]="['/contacto']">Contáctanos</a>
+    </div>
+  </div>
 </nav>
