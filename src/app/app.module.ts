@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { PrimercomponenteComponent } from './primercomponente/primercomponente.component';
+import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
@@ -13,21 +13,18 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { IndexComponent } from './index/index.component';
 
-
 const routes: Routes = [
-  { path: 'index', component: PrimercomponenteComponent },
-  { path: 'menu', component:  MenuComponent  },
-  { path: 'contacto', component: ContactoComponent   },
-  { path: 'quienes', component:  QuienesComponent   },
-  { path: 'nosotros', component: NosotrosComponent   },
-  { path: 'index', component: IndexComponent   }
-  
+  { path: 'index', component: HomeComponent },
+  { path: 'menu', component: MenuComponent },
+  { path: 'contacto', component: ContactoComponent },
+  { path: 'quienes', component: QuienesComponent },
+  { path: 'nosotros', component: NosotrosComponent },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    PrimercomponenteComponent,
+    HomeComponent,
     HeaderComponent,
     FooterComponent,
     MenuComponent,
@@ -35,12 +32,9 @@ const routes: Routes = [
     ContactoComponent,
     NosotrosComponent,
     IndexComponent,
-   
   ],
-  imports: [
-    BrowserModule, 
-    RouterModule.forRoot(routes) ],
+  imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

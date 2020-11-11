@@ -1,0 +1,19 @@
+.titulo1 {
+    color      : white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size  : 3rem;
+}
+
+.t1 {
+    margin-top   : 20px;
+    margin-bottom: 20px;
+    color        : white;
+    font-family  : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight  : 400;
+    font-size    : 1.5rem;
+}
+
+.container {
+    padding: 30px 0px;
+}
